@@ -20,28 +20,22 @@
         <li><strong>Restaurant Model:</strong> Represents a restaurant, including fields like name, description, location, and owner.</li>
         <li><strong>API Endpoints:</strong> Allows restaurant owners to create, update, and list their restaurants. Only authenticated owners can perform these actions.</li>
     
-    
+    <br>
     Menu Management
-<br>
+    <br>
         <li><strong>Menu and MenuItem Models:</strong> Represent menus and their items associated with a restaurant.</li>
         <li><strong>API Endpoints:</strong> Enable owners to create and update menus and menu items. Owners can also list all menus for their restaurants.</li>
-
-    
-    
+    <br>
     Order Management
     <br>
         <li><strong>Order and OrderItem Models:</strong> Represent customer orders and the items within those orders, including details like items, quantity, and price.</li>
         <li><strong>API Endpoints:</strong> Allow users to create and manage orders based on available menu items. Only authorized users can place and manage orders.</li>
-    
-    
-    
+    <br>
     Payment Processing
     <br>
         <li><strong>Stripe Integration:</strong> Uses the Stripe API to handle secure payments.</li>
         <li><strong>Payment API:</strong> Provides endpoints to process payments, handling payment information securely using Stripe tokens.</li>
-    
-    
-    
+    <br>    
     User Roles and Permissions
     <br>
         <li><strong>Roles:</strong> Defines roles for users (owners and employees) to manage who can access and modify restaurant data.</li>
