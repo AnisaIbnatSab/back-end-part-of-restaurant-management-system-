@@ -9,14 +9,14 @@
 <body>
     <p>The Django backend is designed to manage restaurants, menus, orders, and payments efficiently that provides a robust API with user authentication, permissions, and integration with Stripe for payment processing.</p>
     
-    <h3>User and Authentication</h3>
+    <p>User and Authentication</p>
     <ul>
         <li><strong>Custom User Model:</strong> Extended to include additional fields necessary for user profiles, such as roles (owners and employees).</li>
         <li><strong>Authentication:</strong> Utilizes Django's built-in authentication system for secure login and session management.</li>
         <li><strong>Permissions:</strong> Custom permissions are implemented to control access to different parts of the application, ensuring only authorized users can perform specific actions (e.g., manage orders, menus).</li>
     </ul>
     
-    <h3>Restaurant Management</h3>
+    <p>Restaurant Management</p>
     <ul>
         <li><strong>Restaurant Model:</strong> Represents a restaurant, including fields like name, description, location, and owner.</li>
         <li><strong>API Endpoints:</strong> Allows restaurant owners to create, update, and list their restaurants. Only authenticated owners can perform these actions.</li>
