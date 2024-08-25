@@ -15,8 +15,6 @@
         <li><strong>Authentication:</strong> Utilizes Django's built-in authentication system for secure login and session management.</li>
         <li><strong>Permissions:</strong> Custom permissions are implemented to control access to different parts of the application, ensuring only authorized users can perform specific actions (e.g., manage orders, menus).</li>
     <br>
-    
-    
     Restaurant Management
     <br>
         <li><strong>Restaurant Model:</strong> Represents a restaurant, including fields like name, description, location, and owner.</li>
