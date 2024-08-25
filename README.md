@@ -19,7 +19,6 @@
     <br>
         <li><strong>Restaurant Model:</strong> Represents a restaurant, including fields like name, description, location, and owner.</li>
         <li><strong>API Endpoints:</strong> Allows restaurant owners to create, update, and list their restaurants. Only authenticated owners can perform these actions.</li>
-    
     <br>
     Menu Management
     <br>
@@ -39,8 +38,7 @@
     User Roles and Permissions
     <br>
         <li><strong>Roles:</strong> Defines roles for users (owners and employees) to manage who can access and modify restaurant data.</li>
-        <li><strong>Custom Permissions:</strong> Ensures that only users with the correct permissions can create, view, or modify data related to restaurants, menus, orders, and payments.</li>
-    
+        <li><strong>Custom Permissions:</strong> Ensures that only users with the correct permissions can create, view, or modify data related to restaurants, menus, orders, and payments.</li>   
 </body>
 </html>
 
